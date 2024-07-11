@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Medical Store</title>
+  
+  
+<!--code for font awesome cdn  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--code for font awesome cdn  -->
+  
+  
+  <script>
+    history.forward();
+</script>
+  <style>
+    body {
+    	padding:0;
+    	margin:0;
+      	background-image: url("https://cdn.pixabay.com/photo/2014/12/03/06/14/medical-store-555090_1280.jpg");
+      	background-size: cover;
+      	background-repeat: no-repeat;
+      	background-position: center;
+      	font-family: sans-serif;
+      	text-align: center;
+    	}
+    
+    
+/* Add this to your existing CSS styles */
+
+.navbar {
+  background-color: green; /* Change the background color as needed */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.container {
+  /* Adjust the top padding to give space below the fixed navbar */
+  padding-top: 60px;
+}
+
+/* Rest of your CSS styles */
+    /* 
+	  .logo {
+	  font-family: cursive;
+	  font-weight: bold;
+	  font-size: 24px;
+	  color: #ffffff;
+	  background-color: green; 
+	  padding: 10px;
+	  width: 100px;
+	  border-radius: 4px;
+	  margin: 0 auto;
+	}
+   	
+    
+    .logo-icon {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: green;
+      color: white;
+      text-align: center;
+      line-height: 40px;
+      font-size: 28px;
+      margin-right: 10px;
+      border-radius: 50%;
+    } */
+    
+	 .button {
+	  display: inline-block;
+	  padding: 10px 20px;
+	  font-size: 18px;
+	  border-radius: 4px;
+	  text-decoration: none;
+	  color: #fff;
+	  background-color: green;
+	  border: none;
+	  transition: background-color 0.3s ease;
+	  cursor: pointer;
+	  margin-top: 300px;
+	}
+    
+    .button:hover {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <span><i class="fa fa-plus-square" aria-hidden="true"></i> Medical Store</span>
+    </div>
+  </nav>
+  
+  <a href="userLogin.html" class="button">User Login</a>
+  <a href="adminlogin.html" class="button">Admin Login</a>
+  <!-- <a href="guestlogin.html" class="button">Login as Guest</a> -->
+</body>
+</html>
