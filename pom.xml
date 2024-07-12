@@ -26,14 +26,13 @@
                 <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
             </configuration>
         </plugin>
-    </plugins>
-    <dependencies>
-  <dependency>
+        <plugin>
     <groupId>weblogic</groupId>
     <artifactId>weblogic</artifactId>
     <version>10.3.6</version>
-    <scope>provided</scope>
-  </dependency>
-</dependencies>
+     
+  </plugin>
+    </plugins>
+    
   </build>
 </project>
