@@ -27,5 +27,13 @@
             </configuration>
         </plugin>
     </plugins>
+    <dependencies>
+  <dependency>
+    <groupId>weblogic</groupId>
+    <artifactId>weblogic</artifactId>
+    <version>10.3.6</version>
+    <scope>provided</scope>
+  </dependency>
+</dependencies>
   </build>
 </project>
