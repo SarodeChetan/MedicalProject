@@ -40,26 +40,17 @@
 
     
   </build>
-  <repositories>
-    <repository>
-        <id>oracle-maven-repo</id>
-        <name>Oracle Maven Repository</name>
-        <url>https://www.oracle.com/content/secure/maven/content</url>
-        <layout>default</layout>
-        <releases>
-            <enabled>true</enabled>
-            <updatePolicy>daily</updatePolicy> <!-- or use 'always' -->
-            <checksumPolicy>warn</checksumPolicy>
-        </releases>
-    </repository>
-</repositories>
+ 
+<dependencies>
+ 
+<!-- https://mvnrepository.com/artifact/jakarta.xml.ws/jakarta.xml.ws-api -->
+<dependency>
+    <groupId>jakarta.xml.ws</groupId>
+    <artifactId>jakarta.xml.ws-api</artifactId>
+    <version>4.0.2</version>
+</dependency>
 
-   <dependencies>
-    <dependency>
-        <groupId>weblogic</groupId>
-        <artifactId>webservices</artifactId>
-        <version>10.3.6</version>
-    </dependency>
 </dependencies>
+
 
 </project>
