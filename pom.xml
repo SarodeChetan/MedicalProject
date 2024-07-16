@@ -32,6 +32,12 @@
     <version>10.3.6</version>
      
   </plugin>
+  <plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>weblogic-maven-plugin</artifactId>
+    <version>2.9.5</version>
+</plugin>
+
     </plugins>
     
   </build>
